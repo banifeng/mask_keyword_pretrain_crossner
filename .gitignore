@@ -1,0 +1,11 @@
+.DS_Store
+corpus/
+checking_data.py
+experiments/
+__pycache__/
+runs/
+*_integrated/
+*_model/
+experiments_bak
+nohup.out
+cache*

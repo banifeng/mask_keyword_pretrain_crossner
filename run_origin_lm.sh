@@ -1,0 +1,5 @@
+# python run_language_modeling.py --output_dir=politics_spanlevel_integrated --model_type=bert --model_name_or_path=bert-base-cased --do_train --train_data_file=corpus/politics_integrated.txt --mlm --per_device_train_batch_size 20
+# python run_language_modeling.py --output_dir=music_spanlevel_integrated --model_type=bert --model_name_or_path=bert-base-cased --do_train --train_data_file=corpus/music_integrated.txt --mlm --per_device_train_batch_size 20
+# python run_language_modeling.py --output_dir=ai_spanlevel_integrated --model_type=bert --model_name_or_path=bert-base-cased --do_train --train_data_file=corpus/ai_integrated.txt --mlm --per_device_train_batch_size 20
+# python run_language_modeling.py --output_dir=science_spanlevel_integrated --model_type=bert --model_name_or_path=bert-base-cased --do_train --train_data_file=corpus/science_integrated.txt --mlm --per_device_train_batch_size 20
+python run_language_modeling.py --output_dir=literature_spanlevel_integrated --model_type=bert --model_name_or_path=bert-base-cased --do_train --train_data_file=corpus/literature_integrated.txt --mlm --per_device_train_batch_size 20
